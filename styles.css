@@ -103,11 +103,7 @@ button:active{
         justify-content: center; /* horizontal */
 
 }
-#tiny-gif{
-    display: block;
-    margin: 8px auto;
-    width: 29vw;   /* very small */
-}
+
 #footer{
     text-align: center;
     display: flex;
