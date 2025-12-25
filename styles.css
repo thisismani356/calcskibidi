@@ -1,0 +1,117 @@
+body{
+  background-color: beige;
+   margin: 0;
+   display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.h1diddy{
+    color: rgb(0, 13, 14);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;    
+    
+}
+#myspan{
+  opacity: 0.67;
+  font-size:0.6em;
+  vertical-align: middle;
+  
+}
+#theintro{
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    border: 1px solid;
+
+
+
+}
+
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: left;
+    border: none;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+button{
+    border-radius: 50px;
+    border: none;
+    background-color: beige;
+    color: rgb(22, 1, 1);
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid ;
+}
+button:hover{
+    background-color: rgb(248, 248, 209);
+}
+button:active{
+    background-color: rgb(248, 248, 209);
+}
+.operator-btn{
+    background-color: beige;
+}
+.operator-btn:hover{
+    background-color: beige;
+}
+.operator-btn:active{
+    background-color: beige;
+}
+
+.scrolling-container {
+  overflow: hidden;         /* Hide text when it goes off-screen */
+  white-space: nowrap;     /* Prevent text from wrapping to a new line */
+  width: 100%;
+  background: beige;     /* Optional background */
+}
+
+.scrolling-text {
+  display: inline-block;
+  padding-left: 100%;       /* Start text completely off-screen to the right */
+  animation: marquee 10s linear infinite; /* Control speed (15s) and loop (infinite) */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); } /* Move text fully off-screen to the left */
+}
+#rizz{
+        justify-content: center; /* horizontal */
+
+}
+#tiny-gif{
+    display: block;
+    margin: 8px auto;
+    width: 29vw;   /* very small */
+}
+#footer{
+    text-align: center;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    font-size: 23px;
+}
